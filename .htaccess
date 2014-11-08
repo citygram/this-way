@@ -1,4 +1,4 @@
 Options +FollowSymLinks
 RewriteEngine On
 
-RewriteRule /*/ http://www.citygram.org [R=301,NC,L]
+RewriteRule ^(.*)$ http://www.citygram.org [R=301,NC,L]
